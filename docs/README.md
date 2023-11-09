@@ -20,14 +20,14 @@ An Input node is one that will take in a user input or sensor interface and tran
 
 The standard program flow of an Input node will be as follows:
 
-``` mermaid
+{% mermaid %}
 flowchart TD
     A[Setup] --> B(Loop)
     B --> C(Read sensor value)
     C --> D(Process sensor value)
     D --> E(Transmit processed \nvalues via CanBus)
     E --> B
-```
+{% endmermaid %}
 
 ## Output
 
