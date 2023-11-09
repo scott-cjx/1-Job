@@ -20,14 +20,29 @@ An Input node is one that will take in a user input or sensor interface and tran
 
 The standard program flow of an Input node will be as follows:
 
-{% mermaid %}
+``` mermaid
 flowchart TD
     A[Setup] --> B(Loop)
     B --> C(Read sensor value)
     C --> D(Process sensor value)
     D --> E(Transmit processed \nvalues via CanBus)
     E --> B
-{% endmermaid %}
+```
 
 ## Output
 
+An Output node is one that will poll the CanBus network for instructions, pulling a pin high/low as per required. Furthermore, `1 Job` will be equipped with a Solid State Relay, allowing it to connect/ disconnect a circuit much like a programmable switch, but without the need of connecting the circuits together. 
+
+The standard program flow of an Output node will be as follows:
+
+1. Poll for instructions from `brain` nodes
+2. Pull pin high/low as per instructed
+
+``` mermaid
+flowchart TD
+    A[Setup] --> B(Loop)
+    B --> C(Wait for CanBus Message)
+    C --> D(Read CanBus Instructions)
+    D --> E(Drive Pin high/low \nas per instructions)
+    E --> B
+```
