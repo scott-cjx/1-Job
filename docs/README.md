@@ -9,7 +9,7 @@ As this PCB is designed to have `1 Job`, you may then wonder what is that `1 Job
 #### You might want to see:
     
 - [Brain](https://scott-cjx.github.io/brain) - `1 Job's` partner-in-crime
-- [NVF-Data Acq](https://nanyang-venture-formula.github.io/) - how `1 Job` and `Brain` would work together to form a comprehensive Car EE System.
+- [NVF-Data Acquisition](https://nanyang-venture-formula.github.io/) - how `1 Job` and `Brain` would work together to form a comprehensive Car EE System.
 
 ## Input
 
