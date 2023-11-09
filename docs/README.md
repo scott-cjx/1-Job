@@ -6,14 +6,14 @@
 
 As this PCB is designed to have `1 Job`, you may then wonder what is that `1 Job`. Well it is meant to be one of many nodes in a CanBus network. Its job is to act as either an [Input](#input) or [Output](#output) node. More will be explained.
 
-#### You might want to see: 
+**You might want to see:** 
     
 - [Brain](https://scott-cjx.github.io/brain) - `1 Job's` partner-in-crime
 - [NVF-Data Acq](https://nanyang-venture-formula.github.io/) - how `1 Job` and `Brain` would work together to form a comprehensive Car EE System.
 
 ## Input
 
-An Input node is one that will take in a user input or sensor interface and transmit its reading to the CanBus network. Some examples sensors that `1 Job` will interface with incldue:
+An Input node is one that will take in a user input or sensor interface and transmit its reading to the CanBus network. Some sensors that `1 Job` interfaces with include:
 
 - (Analog) Potentiometer
 - (Digital) Push Button/ Switch
