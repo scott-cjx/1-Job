@@ -524,14 +524,14 @@
   (junction (at 77.47 87.63) (diameter 0) (color 0 0 0 0)
     (uuid 35f00483-0fe9-4e10-b51c-7390dcf4ff89)
   )
+  (junction (at 137.16 63.5) (diameter 0) (color 0 0 0 0)
+    (uuid 4d693e09-86e3-4a87-b54a-836f86e2b35c)
+  )
   (junction (at 81.28 95.25) (diameter 0) (color 0 0 0 0)
     (uuid bd38fa21-1715-42e6-8260-13347bd863d7)
   )
-  (junction (at 137.16 54.61) (diameter 0) (color 0 0 0 0)
-    (uuid c73d552c-d928-4f54-8a1c-efc858c7cd73)
-  )
-  (junction (at 137.16 44.45) (diameter 0) (color 0 0 0 0)
-    (uuid f15f7d09-cd11-45d1-8a10-1dd87600f869)
+  (junction (at 193.04 63.5) (diameter 0) (color 0 0 0 0)
+    (uuid d80631d3-82ff-4e3f-89f2-87709f630d91)
   )
 
   (no_connect (at 171.45 87.63) (uuid 08d6b363-9227-4375-a1aa-9d718b899ded))
@@ -561,9 +561,21 @@
     (stroke (width 0) (type default))
     (uuid 0c7543cb-311e-463e-af6a-68faf6439d41)
   )
+  (wire (pts (xy 182.88 64.77) (xy 182.88 63.5))
+    (stroke (width 0) (type default))
+    (uuid 0ed51611-f661-46ee-b51f-93ba7002dd43)
+  )
   (wire (pts (xy 182.88 82.55) (xy 171.45 82.55))
     (stroke (width 0) (type default))
     (uuid 1193335c-87f8-4f1b-85ed-6740057beeb3)
+  )
+  (wire (pts (xy 193.04 63.5) (xy 193.04 77.47))
+    (stroke (width 0) (type default))
+    (uuid 125023e9-84b9-49a1-b273-6bb70c2e2533)
+  )
+  (wire (pts (xy 127 63.5) (xy 137.16 63.5))
+    (stroke (width 0) (type default))
+    (uuid 1cd1df91-6813-4286-88ec-e24da28b6d1e)
   )
   (wire (pts (xy 137.16 104.14) (xy 137.16 102.87))
     (stroke (width 0) (type default))
@@ -573,11 +585,7 @@
     (stroke (width 0) (type default))
     (uuid 26f43abe-e210-4f90-803e-a420558af440)
   )
-  (wire (pts (xy 137.16 43.18) (xy 137.16 44.45))
-    (stroke (width 0) (type default))
-    (uuid 2a70c668-904e-40f3-8a94-b185c635ecf2)
-  )
-  (wire (pts (xy 137.16 68.58) (xy 137.16 77.47))
+  (wire (pts (xy 137.16 62.23) (xy 137.16 63.5))
     (stroke (width 0) (type default))
     (uuid 2b581c06-3d58-4ee8-a97f-bd40b04ba872)
   )
@@ -593,13 +601,9 @@
     (stroke (width 0) (type default))
     (uuid 3d9eefad-2eca-4f23-ac30-e99d81bf1341)
   )
-  (wire (pts (xy 193.04 68.58) (xy 193.04 77.47))
+  (wire (pts (xy 193.04 62.23) (xy 193.04 63.5))
     (stroke (width 0) (type default))
     (uuid 3f03a26d-b1c6-424e-b43a-a9b9a8d17a04)
-  )
-  (wire (pts (xy 147.32 45.72) (xy 147.32 44.45))
-    (stroke (width 0) (type default))
-    (uuid 409641d7-44e2-4940-a3ad-b50169d26451)
   )
   (wire (pts (xy 182.88 90.17) (xy 179.07 90.17))
     (stroke (width 0) (type default))
@@ -617,9 +621,9 @@
     (stroke (width 0) (type default))
     (uuid 4c2392ac-92ad-4efc-836f-2cfdea8e722c)
   )
-  (wire (pts (xy 137.16 44.45) (xy 137.16 45.72))
+  (wire (pts (xy 127 72.39) (xy 127 73.66))
     (stroke (width 0) (type default))
-    (uuid 525ced85-79a7-45e9-a92a-c2fd4d96e2f1)
+    (uuid 56bb5961-fc67-497f-97d2-2b2371fbd163)
   )
   (wire (pts (xy 223.52 99.06) (xy 227.33 99.06))
     (stroke (width 0) (type default))
@@ -637,17 +641,9 @@
     (stroke (width 0) (type default))
     (uuid 5d44c8f8-da21-40dd-b757-b4d46e943bae)
   )
-  (wire (pts (xy 137.16 53.34) (xy 137.16 54.61))
+  (wire (pts (xy 182.88 63.5) (xy 193.04 63.5))
     (stroke (width 0) (type default))
-    (uuid 6a1bb2f1-f8ff-444b-bd6b-9ceb94e20f4f)
-  )
-  (wire (pts (xy 137.16 54.61) (xy 147.32 54.61))
-    (stroke (width 0) (type default))
-    (uuid 6c1b0e14-0f25-47c0-9b03-f154a21acff4)
-  )
-  (wire (pts (xy 137.16 44.45) (xy 147.32 44.45))
-    (stroke (width 0) (type default))
-    (uuid 79a24bfd-d33c-414d-bb01-15e53b29e4ab)
+    (uuid 77e2c40c-efbb-4e67-8e85-0cc0a95b6989)
   )
   (wire (pts (xy 121.92 90.17) (xy 110.49 90.17))
     (stroke (width 0) (type default))
@@ -669,6 +665,14 @@
     (stroke (width 0) (type default))
     (uuid 9705b16e-3bdf-456b-abed-0e4fcce5bf21)
   )
+  (wire (pts (xy 137.16 63.5) (xy 137.16 77.47))
+    (stroke (width 0) (type default))
+    (uuid 9a884ed5-ca1b-436c-9402-2ee46444a429)
+  )
+  (wire (pts (xy 127 64.77) (xy 127 63.5))
+    (stroke (width 0) (type default))
+    (uuid a432ae01-014d-4635-8589-a7ae96601e10)
+  )
   (wire (pts (xy 121.92 82.55) (xy 110.49 82.55))
     (stroke (width 0) (type default))
     (uuid ae359fe4-c8c5-4a29-8efe-41b7bec0d00c)
@@ -684,10 +688,6 @@
   (wire (pts (xy 152.4 97.79) (xy 163.83 97.79))
     (stroke (width 0) (type default))
     (uuid c2068e52-5fca-40a4-ab95-ea7113e2fef9)
-  )
-  (wire (pts (xy 147.32 53.34) (xy 147.32 54.61))
-    (stroke (width 0) (type default))
-    (uuid c568d2ce-0b6c-4845-ae7c-26b8decda275)
   )
   (wire (pts (xy 193.04 95.25) (xy 193.04 100.33))
     (stroke (width 0) (type default))
@@ -717,9 +717,9 @@
     (stroke (width 0) (type default))
     (uuid ec1b858d-d966-44b4-a863-e03dd1cf36b5)
   )
-  (wire (pts (xy 137.16 54.61) (xy 137.16 55.88))
+  (wire (pts (xy 182.88 72.39) (xy 182.88 73.66))
     (stroke (width 0) (type default))
-    (uuid f1f0f0f0-b146-4dd9-ab2f-154fd72decdc)
+    (uuid ef48c163-119d-49ec-8630-54b8049e2dfd)
   )
   (wire (pts (xy 215.9 99.06) (xy 203.2 99.06))
     (stroke (width 0) (type default))
@@ -859,6 +859,9 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" (at 190.5 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 193.04 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0982a5b2-0af0-4ac2-bbbf-6f1d16dddb6d))
     (pin "2" (uuid fc7a583f-a686-4b8d-8523-b442c44b7aeb))
     (pin "3" (uuid 9879772c-961a-4fc5-90ec-05ca932e8c37))
@@ -868,9 +871,34 @@
     (pin "7" (uuid cb60f64b-9791-421f-a5a2-7ed87bb581a4))
     (pin "8" (uuid ac2fb74e-365e-4085-8e0e-119d15df671e))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
           (reference "U201") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 182.88 73.66 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1ca4e2e3-3e18-4bbd-acd1-9b8a4cb30410)
+    (property "Reference" "#PWR0210" (at 182.88 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 182.88 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 182.88 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 182.88 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0924b182-4925-426a-b30c-c0b46ba8ab88))
+    (instances
+      (project "1Job"
+        (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -891,10 +919,13 @@
     (property "Datasheet" "~" (at 219.71 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 219.71 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid dd0989c8-eba8-4481-af01-a18c6520cb27))
     (pin "2" (uuid d3022d30-0f3b-421b-b43e-923972ccfaf9))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
           (reference "R202") (unit 1)
         )
@@ -917,10 +948,13 @@
     (property "Datasheet" "~" (at 77.47 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 77.47 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7ed477cb-594a-4d4a-8786-0587e46ca2e7))
     (pin "2" (uuid 1e1ba012-5961-4d19-8152-815ea0d54b25))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
           (reference "C203") (unit 1)
         )
@@ -943,12 +977,47 @@
     (property "Datasheet" "~" (at 85.09 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 85.09 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b28d906c-40df-4bea-9024-d345f95a7744))
     (pin "2" (uuid 75e85315-7567-4b90-8f88-fb2e8349da5f))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
           (reference "C204") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 127 68.58 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 50ea7e5c-a4e5-4681-9a02-3b3475c71b6a)
+    (property "Reference" "C106" (at 129.54 67.31 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 129.54 69.85 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 127.9652 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 127 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 127 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9f6edc75-71cc-4442-9d53-aee7a521a5c9))
+    (pin "2" (uuid 5f722f01-9c34-4d34-b42b-13b9966b91b1))
+    (instances
+      (project "1Job"
+        (path "/250934e5-fe91-4d13-9aa6-67dcfb888854"
+          (reference "C106") (unit 1)
+        )
+        (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
+          (reference "C201") (unit 1)
         )
       )
     )
@@ -969,10 +1038,13 @@
     (property "Datasheet" "~" (at 232.41 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 232.41 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a43e9e2d-513a-4c1d-b834-76b1253f8b02))
     (pin "2" (uuid afbea344-1fa5-40ab-b043-f272afae9aa1))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
           (reference "J201") (unit 1)
         )
@@ -997,7 +1069,7 @@
     )
     (pin "1" (uuid cfd0b8c0-7e5d-4478-bf3b-d02f2c9e84a8))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
           (reference "#PWR0205") (unit 1)
         )
@@ -1022,9 +1094,34 @@
     )
     (pin "1" (uuid 04602763-7507-48df-805f-3c92fb6b71e3))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
           (reference "#PWR0207") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 127 73.66 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 60d01320-df30-4729-af9a-33ac9aa324f3)
+    (property "Reference" "#PWR0202" (at 127 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 127 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 127 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 127 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b3faa5a9-a3e5-4f90-9714-f40c264337bf))
+    (instances
+      (project "1Job"
+        (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -1045,10 +1142,13 @@
     (property "Datasheet" "~" (at 179.07 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 179.07 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fc9fde9a-996a-4b80-87aa-b59111fada7f))
     (pin "2" (uuid c484455d-f9c8-4d63-81e3-dcebed27f83d))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
           (reference "R201") (unit 1)
         )
@@ -1071,6 +1171,9 @@
     (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005688A.pdf" (at 137.16 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 137.16 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3ca6f0da-028d-45ec-af96-7515e5941444))
     (pin "10" (uuid ab1cf621-18e2-496c-9233-7ac4079824b2))
     (pin "11" (uuid f2196df7-a998-433a-8deb-8ac7e1dd46ed))
@@ -1086,7 +1189,7 @@
     (pin "8" (uuid 4de3b656-155f-4005-ba73-c9eae8a67684))
     (pin "9" (uuid e983740e-6094-454e-9776-a412ea0ac99d))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
           (reference "U202") (unit 1)
         )
@@ -1094,51 +1197,58 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 137.16 43.18 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 137.16 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8970d1cc-a6e2-463c-bc00-3cd464dfe13c)
-    (property "Reference" "#PWR0201" (at 137.16 46.99 0)
+    (uuid 8b97e690-3f1b-4c41-a5ce-f4454af9bb2f)
+    (property "Reference" "#PWR0203" (at 137.16 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 137.16 39.37 0)
+    (property "Value" "+3V3" (at 137.16 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 137.16 43.18 0)
+    (property "Footprint" "" (at 137.16 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 137.16 43.18 0)
+    (property "Datasheet" "" (at 137.16 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 242c7813-4c1b-424d-a4b3-bf7f87842e44))
+    (pin "1" (uuid 1fb96b52-c887-4c3f-8ec4-ea6e9d79d2fa))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
-          (reference "#PWR0201") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 137.16 68.58 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 182.88 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8b97e690-3f1b-4c41-a5ce-f4454af9bb2f)
-    (property "Reference" "#PWR0203" (at 137.16 72.39 0)
+    (uuid 98132d1b-b6b6-4398-b271-f2e232c4dbea)
+    (property "Reference" "C106" (at 185.42 67.31 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 185.42 69.85 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 183.8452 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 137.16 64.77 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 137.16 68.58 0)
+    (property "Datasheet" "~" (at 182.88 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 137.16 68.58 0)
+    (property "LCSC" "" (at 182.88 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1fb96b52-c887-4c3f-8ec4-ea6e9d79d2fa))
+    (pin "1" (uuid 287607d9-5ce1-4d58-8780-7865407c537f))
+    (pin "2" (uuid 4ebb9c40-90a8-4319-adba-a6c2ea1ec5ec))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
+        (path "/250934e5-fe91-4d13-9aa6-67dcfb888854"
+          (reference "C106") (unit 1)
+        )
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
-          (reference "#PWR0203") (unit 1)
+          (reference "C202") (unit 1)
         )
       )
     )
@@ -1161,7 +1271,7 @@
     )
     (pin "1" (uuid ef6b7d23-22f1-4bdb-b455-243d9bce8793))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
           (reference "#PWR0208") (unit 1)
         )
@@ -1186,7 +1296,7 @@
     )
     (pin "1" (uuid dd4b0f4d-43d9-4fb2-9ffa-ba565c75987a))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
           (reference "#PWR0206") (unit 1)
         )
@@ -1194,55 +1304,26 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 193.04 68.58 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 193.04 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d93e3f6c-4ddf-418b-8339-869e31135e77)
-    (property "Reference" "#PWR0204" (at 193.04 72.39 0)
+    (property "Reference" "#PWR0204" (at 193.04 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 193.04 64.77 0)
+    (property "Value" "+3V3" (at 193.04 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 193.04 68.58 0)
+    (property "Footprint" "" (at 193.04 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 193.04 68.58 0)
+    (property "Datasheet" "" (at 193.04 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 840685d9-2789-4106-9ca5-ce463da7b9fd))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
           (reference "#PWR0204") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 137.16 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid de945a8a-9f82-485e-827a-0561018449ef)
-    (property "Reference" "C106" (at 139.7 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 139.7 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 138.1252 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 137.16 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 95d583ba-8067-4fb5-b11e-8f7f0594177c))
-    (pin "2" (uuid ff0a6f34-dd8a-4a6f-8ec3-179c617d3d52))
-    (instances
-      (project "ControllerLite"
-        (path "/250934e5-fe91-4d13-9aa6-67dcfb888854"
-          (reference "C106") (unit 1)
-        )
-        (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
-          (reference "C201") (unit 1)
         )
       )
     )
@@ -1263,68 +1344,17 @@
     (property "Datasheet" "~" (at 81.28 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "" (at 81.28 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1b0faa0a-cb7e-4503-a9a4-b2fe0e10cde2))
     (pin "2" (uuid 9f71b148-7b35-4dfd-bf30-343ba7fccc50))
     (pin "3" (uuid dbf5081f-3f30-417f-9e02-eb8eac400c0b))
     (pin "4" (uuid 98eb7942-210a-49c9-9394-b59bbcf014d0))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
           (reference "Y201") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 137.16 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ed928627-95aa-4293-bab1-811221391de6)
-    (property "Reference" "#PWR0202" (at 137.16 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 137.16 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 137.16 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 137.16 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d19916dd-4513-4d8d-b2d1-974eb5a45473))
-    (instances
-      (project "ControllerLite"
-        (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
-          (reference "#PWR0202") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 147.32 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f4e7ff33-1bd2-468d-9258-30601d0cb520)
-    (property "Reference" "C106" (at 149.86 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 149.86 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 148.2852 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 147.32 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1dc613af-a6e2-4e68-be51-7d17755e50c9))
-    (pin "2" (uuid a10c4066-4da1-4c97-8b80-44dff5baef27))
-    (instances
-      (project "ControllerLite"
-        (path "/250934e5-fe91-4d13-9aa6-67dcfb888854"
-          (reference "C106") (unit 1)
-        )
-        (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
-          (reference "C202") (unit 1)
         )
       )
     )
@@ -1347,7 +1377,7 @@
     )
     (pin "1" (uuid 9f1665e3-2895-4b1d-bec6-36808b0c2a76))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
           (reference "#PWR0209") (unit 1)
         )

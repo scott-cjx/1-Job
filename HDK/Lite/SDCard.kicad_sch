@@ -321,7 +321,7 @@
   (symbol (lib_id "power:GND") (at 95.25 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7dbdc749-b0d2-4c23-b906-1db49d9e7101)
-    (property "Reference" "#PWR0301" (at 88.9 96.52 0)
+    (property "Reference" "#PWR0302" (at 88.9 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 96.52 90)
@@ -335,9 +335,9 @@
     )
     (pin "1" (uuid e61d7720-41da-441d-9a0d-d74b9f4cb280))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/614c74f4-d8d1-4546-8dcf-6b150dd58bfd"
-          (reference "#PWR0301") (unit 1)
+          (reference "#PWR0302") (unit 1)
         )
       )
     )
@@ -349,13 +349,16 @@
     (property "Reference" "J301" (at 135.255 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Micro_SD_Card_Det1" (at 135.255 74.93 0)
+    (property "Value" "GT-TF003-H0185-02" (at 135.255 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 186.69 76.2 0)
+    (property "Footprint" "Connector_Card:microSD_HC_Molex_104031-0811" (at 186.69 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf" (at 134.62 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5155564" (at 134.62 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 30915cc5-9164-4015-a531-1f72a7fb7b07))
@@ -369,7 +372,7 @@
     (pin "8" (uuid 23fcc12d-4fe4-4d46-a79c-ab9cee94bb3b))
     (pin "9" (uuid 426f4510-2de0-4a88-bf52-4067217a8f2b))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/614c74f4-d8d1-4546-8dcf-6b150dd58bfd"
           (reference "J301") (unit 1)
         )
@@ -380,7 +383,7 @@
   (symbol (lib_id "power:+3V3") (at 95.25 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 80f49244-7937-4195-a80c-bfe77f918487)
-    (property "Reference" "#PWR0302" (at 99.06 91.44 0)
+    (property "Reference" "#PWR0301" (at 99.06 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 92.71 91.44 90)
@@ -394,9 +397,9 @@
     )
     (pin "1" (uuid ac593329-55f9-4c1b-90ff-e50d38e55992))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/614c74f4-d8d1-4546-8dcf-6b150dd58bfd"
-          (reference "#PWR0302") (unit 1)
+          (reference "#PWR0301") (unit 1)
         )
       )
     )
@@ -419,7 +422,7 @@
     )
     (pin "1" (uuid 3081f0a2-be5e-4b51-9fe6-790467f0d0d7))
     (instances
-      (project "ControllerLite"
+      (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/614c74f4-d8d1-4546-8dcf-6b150dd58bfd"
           (reference "#PWR0303") (unit 1)
         )
