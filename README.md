@@ -46,3 +46,13 @@ flowchart TD
     D --> E(Drive Pin high/low \nas per instructions)
     E --> B
 ```
+
+## Preview
+
+![img-1job-f](./rsc/1Job-F.png)
+
+1-Job-Lite Front
+
+![img-1job-b](./rsc/1Job-B.png)
+
+1-Job-Lite Back
