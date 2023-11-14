@@ -2,7 +2,7 @@
 
 `1 Job` is a Custom Designed PCB by [Scott CJX](https://scott-cjx.github.io) for [Nanyang Venture Formula NVF](https://nanyang-venture-formula.github.io/). Since its designer is a software person, `1 Job` is created to follow the principle of programming, having only `1 Job`.
 
-![img-1-job-pcb](./rsc/img-1-job-pcb.png)
+![img-1-job-pcb](./rsc/1Job-O-E.png)
 
 As this PCB is designed to have `1 Job`, you may then wonder what is that `1 Job`. Well it is meant to be one of many nodes in a CanBus network. Its job is to act as either an [Input](#input) or [Output](#output) node. More will be explained.
 
@@ -49,10 +49,6 @@ flowchart TD
 
 ## Preview
 
-![img-1job-f](./rsc/1Job-F.png)
+![img-1job-f](./rsc/1Job-F-E.png)
 
-1-Job-Lite Front
-
-![img-1job-b](./rsc/1Job-B.png)
-
-1-Job-Lite Back
+![img-1job-b](./rsc/1Job-B-E.png)
