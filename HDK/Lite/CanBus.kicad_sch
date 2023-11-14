@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "1 Job Lite")
+    (date "2023-11-13")
+    (rev "A")
+    (company "Scott CJX")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)

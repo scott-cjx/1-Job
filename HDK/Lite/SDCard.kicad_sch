@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "1 Job Lite")
+    (date "2023-11-13")
+    (rev "A")
+    (company "Scott CJX")
+  )
+
   (lib_symbols
     (symbol "DM3CS-SF:DM3CS-SF" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -7.6282 19.0976 0)

@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "1 Job Lite")
+    (date "2023-11-13")
+    (rev "A")
+    (company "Scott CJX")
+  )
+
   (lib_symbols
     (symbol "Connector:USB_C_Receptacle_USB2.0" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -10.16 19.05 0)
@@ -1236,7 +1243,9 @@
 
   (no_connect (at 107.95 129.54) (uuid 67283a6e-f585-4359-8716-350ed01c0009))
   (no_connect (at 53.34 167.64) (uuid ae7a8553-ab74-4a1e-8f5c-6dd8dcac76eb))
+  (no_connect (at 186.69 105.41) (uuid bada1658-06c6-410f-885e-9ba920ccae5a))
   (no_connect (at 151.13 137.16) (uuid c2c66d4e-acbf-425d-8d40-0d5af6a1151e))
+  (no_connect (at 186.69 102.87) (uuid ffcbd552-0146-4edd-a10c-cefcda3c44ec))
 
   (wire (pts (xy 77.47 121.92) (xy 77.47 125.73))
     (stroke (width 0) (type default))
