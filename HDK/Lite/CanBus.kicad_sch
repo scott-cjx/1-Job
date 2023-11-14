@@ -1354,10 +1354,10 @@
     (property "LCSC" "C9010" (at 81.28 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 476513ef-1d58-4922-8132-5b3545b93ec3))
+    (pin "2" (uuid 84557e54-e10f-484b-98f2-ed5ef0fd50da))
     (pin "3" (uuid a2028680-133b-4370-a821-3a4296c2b232))
     (pin "4" (uuid ca8c88a6-6e79-47ca-9e0f-738897e7b00d))
-    (pin "2" (uuid 84557e54-e10f-484b-98f2-ed5ef0fd50da))
-    (pin "1" (uuid 476513ef-1d58-4922-8132-5b3545b93ec3))
     (instances
       (project "1Job"
         (path "/250934e5-fe91-4d13-9aa6-67dcfb888854/ea28d679-3f64-46ea-8bdc-1fa483262ea5"
