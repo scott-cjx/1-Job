@@ -1,4 +1,4 @@
-## Production
+# Production
 
 Details on all there is to know when sending this product to manufacturing
 
@@ -32,3 +32,6 @@ Details on all there is to know when sending this product to manufacturing
 |U402                              |SOIC-8_3.9x4.9mm_P1.27mm           |1       |CH340N             |C2977777   |
 |Y201                              |Crystal_SMD_3225-4Pin_3.2x2.5mm    |1       |40MHz              |C9010      |
 
+## Gerbers
+
+todo: include release for production
