@@ -13,9 +13,9 @@ As this PCB is designed to have `1 Job`, you may then wonder what is that `1 Job
 
 ## Other Documentations
 
-- [Software](./README.md)
-- [Hardware](./README.md)
-- [Production](./README.md)
+- [Software](./software)
+- [Hardware](./hardware)
+- [Production](./production)
 
 ## Input
 
