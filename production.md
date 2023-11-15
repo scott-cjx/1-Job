@@ -2,6 +2,10 @@
 
 Details on all there is to know when sending this product to manufacturing
 
+#### See
+
+- [Interactive BOM](./rsc/ibom)
+
 ## Bill Of Materials
 
 |Designator                        |Footprint                          |Quantity|Value              |LCSC Part #|
